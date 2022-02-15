@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221, 235, 238);
+    font-family: 'Luxurious Roman', cursive;
+}
+
+
+/* <!-- start main-nav section --> */
+
+.main-nav {
+    position: absolute;
+    width: 870px;
+    height: 679px;
+    left: 285px;
+    padding: 40px 10px;
+    border: 1px solid black;
+    top: 130px;
+    background: #dde6eb;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+    margin: 20px 50px;
+    color: dodgerblue;
+    font-size: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin: 50px 50px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player h3 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.horigrntal {
+    border: 1.5px solid rgb(73, 75, 75);
+    width: 790px;
+    margin: 0 30px;
+}
+
+
+/* <!-- end main-nav section --> */
+
+
+/* <!-- start themnel section --> */
+
+.themnels {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 40px;
+}
+
+.themnel img {
+    width: 177px;
+    height: 117px;
+}
+
+.themnel {
+    display: flex;
+    margin-top: 30px;
+}
+
+.themnel-text {
+    margin: 20px 0 0 15px;
+}
+
+.themnel-text h4 {
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+
+/* <!-- start themnel section --> */
+
+.course-section {
+    border: 2px solid black;
+    height: 100px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.course {
+    margin-left: 30px;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px;
+}
+
+.courses img {
+    width: 224px;
+    height: 104px;
+    margin-top: 30px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons i {
+    font-size: 15px;
+    color: #FFC014;
+    margin-left: 2px;
+}
+
+.icons i:last-child {
+    color: #727270;
+}
+
+.clock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.clock,
+.clock i,
+.clock span {
+    background-color: rgb(238, 156, 156);
+    padding: 5px;
+    display: block;
+}
